@@ -1,0 +1,987 @@
+* {
+    margin: 0px;
+}
+
+
+header,
+section,
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    background-color: #fff9f1;
+    overflow-x: hidden;
+}
+
+
+h3 {
+    font-family: 'Katibeh', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(2, 64, 26);
+    text-align: center;
+}
+
+h3::after{
+   content:"";
+    display: block;
+    width:1200px;
+    height: 4px;
+    background-color: rgb(2, 64, 26);
+    margin: 40px auto;
+    
+    
+}
+
+h4 {
+    font-size: 20px;
+}
+
+div {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#navigation {
+    background-color: rgb(2, 64, 26);
+    margin: 0px 0px;
+     background-position: center top;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+ #navigation h1 {
+    font-family: 'Spirax', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+
+#navigation nav {
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+#navigation nav ul {
+    list-style: none;
+}
+
+#navigation nav li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: #fff9f1;
+}
+
+#navigation a:hover{
+    
+    text-decoration: underline;
+}
+
+
+header {
+    padding-top: 450px;
+    padding-bottom: 300px;
+    color: #fff9f1;
+    background-image: radial-gradient( circle at left top, #f7de9b, #ffffff ), url(background-image.jpg);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+header h2 {
+    margin-bottom: 20px;
+    position: relative;
+    float: right;
+    bottom: 350px;
+    font-family:'Katibeh', cursive;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 0.8;
+    width: 550px;
+    color: rgb(2, 64, 26);
+    
+}
+
+header p {
+    font-family:'Katibeh', cursive;
+    font-size: 36px;
+    width: 500px;
+    position: relative;
+    float: right;
+    left: 600px;
+    bottom: 100px;
+    color: rgb(2, 64, 26);
+}
+
+
+#coyote-brush-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#coyote-brush-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#coyote-brush {
+    background-color: #aa7722;
+    background-image: url(coyote-brush.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#coyote-brush figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#coyote-brush img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+#coyote-brush img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#coyote-brush img {
+transition: 0.5s ease-in-out;
+}
+
+#coyote-brush h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#coyote-brush p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#coyote-brush p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+#elephant-bush-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#elephant-bush-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#elephant-bush {
+    background-color: #aa7722;
+    background-image: url(elephant-bush.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#elephant-bush figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-right: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#elephant-bush img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#elephant-bush img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#elephant-bush img {
+transition: 0.5s ease-in-out;
+}
+
+#elephant-bush h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#elephant-bush p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#elephant-bush p:hover{
+    
+    text-decoration: underline;
+}
+
+
+#lady-of-the-night-cactus-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#lady-of-the-night-cactus-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#lady-of-the-night-cactus {
+    background-color: #aa7722;
+    background-image: url(lady-of-the-night-cactus.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#lady-of-the-night-cactus figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#lady-of-the-night-cactus img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+#lady-of-the-night-cactus img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#lady-of-the-night-cactus img {
+transition: 0.5s ease-in-out;
+}
+
+#lady-of-the-night-cactus h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#lady-of-the-night-cactus p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#lady-of-the-night-cactus p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+#money-tree-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#money-tree-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#money-tree {
+    background-color: #aa7722;
+    background-image: url(money-tree.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#money-tree figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-right: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#money-tree img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#money-tree img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#money-tree img {
+transition: 0.5s ease-in-out;
+}
+
+#money-tree h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#money-tree p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#money-tree p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+#snake-plant-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#snake-plant-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#snake-plant {
+    background-color: #aa7722;
+    background-image: url(snake-plant.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#snake-plant figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#snake-plant img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+#snake-plant img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#snake-plant img {
+transition: 0.5s ease-in-out;
+}
+
+#snake-plant h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#snake-plant p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#snake-plant p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+
+#spider-plant-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#spider-plant-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#spider-plant{
+    background-color: #aa7722;
+    background-image: url(spider-plant.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#spider-plant figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-right: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#spider-plant img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#spider-plant img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#spider-plant img {
+transition: 0.5s ease-in-out;
+}
+
+#spider-plant h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#spider-plant p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#spider-plant p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+
+#tree-mallow-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#tree-mallow-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#tree-mallow {
+    background-color: #aa7722;
+    background-image: url(tree-mallow.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#tree-mallow figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#tree-mallow img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+#tree-mallow img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#tree-mallow img {
+transition: 0.5s ease-in-out;
+}
+
+#tree-mallow h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#tree-mallow p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#tree-mallow p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+
+
+#tree-aeonium-title{
+    
+    margin: 0px 0px;
+    padding: 60px 0px 0px 0px;
+    
+
+}
+
+#tree-aeonium-title h3{
+    font-size: 36px;
+    
+    
+    
+}
+
+#tree-aeonium{
+    background-color: #aa7722;
+    background-image: url(tree-aeonium.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+    
+}
+
+#tree-aeonium figure {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-right: 600px;
+    margin-top: 50px;
+    width: 480px;
+    height: 240px;
+  
+    
+   
+}
+
+#tree-aeonium img {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 5px solid rgb(2, 64, 26);
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#tree-aeonium img:hover {
+transform: translateY( -20px ) scale( 1.05 );
+}
+
+#tree-aeonium img {
+transition: 0.5s ease-in-out;
+}
+
+#tree-aeonium h4 {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: rgb(2, 64, 26);
+    
+}
+
+
+#tree-aeonium p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 64, 26);
+    
+}
+
+#tree-aeonium p:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+#about-planter{
+    
+    background-color: rgb(2, 64, 26);
+    margin: 0px 0px;
+     background-position: center top;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#about-planter h3 {
+    font-size: 36px;
+    font-family: 'Zilla Slab', serif;
+    color: #fff9f1;
+    
+}
+
+#about-planter p{
+    text-align: center;
+     width: 800px;
+    color: #fff9f1;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 200px;
+    bottom: 50px; 
+    
+}
+
+
+footer {
+    color: rgb(2, 64, 26);
+    text-align: center;
+    padding: 10px;
+}
+
+footer h6, footer p {
+    margin-bottom: 10px;
+    
+}
+
+footer h6 {
+    font-family: 'Spirax', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: capitalize;
+   
+}
+
+footer h6 a {
+    color: rgb(2, 64, 26);
+     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
